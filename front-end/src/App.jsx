@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Info, Topics, Blog, Testimonials, Footer } from "./components";
+import { Header, Topics, Info, Blog, Testimonials, Footer } from "./components";
 
 const App = () => {
   return (

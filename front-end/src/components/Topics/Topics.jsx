@@ -12,17 +12,16 @@ import {
 
 const Topics = () => {
   const [currentImage, setCurrentImage] = useState(frequencies);
-
   return (
-    <section id="topics" className="black">
+    <section className="black" id="topics">
       <div className="wrapper">
-        <h2>What will you learn?</h2>
+        <h2>What will you learn</h2>
         <div className="content-container">
-          <ul className="topics-list">
+          <ul>
             <li onMouseEnter={() => setCurrentImage(frequencies)}>
               What are frequencies?
             </li>
-            <li onMouseEnter={() => setCurrentImage(daw)}>Using the DAW</li>
+            <li onMouseEnter={() => setCurrentImage(daw)}>Using DAW</li>
             <li onMouseEnter={() => setCurrentImage(vocalsProcessing)}>
               Vocals Processing
             </li>
@@ -32,12 +31,11 @@ const Topics = () => {
             </li>
             <li onMouseEnter={() => setCurrentImage(mastering)}>Mastering</li>
           </ul>
-
           <div className="topic-image">
-            <img src={currentImage}></img>
+            <img src={currentImage} alt="image" />
           </div>
         </div>
-        <img src={bgElement1} className="bg-element-1"></img>
+        <img src={bgElement1} alt="bgElement" className="bg-element-1" />
       </div>
     </section>
   );

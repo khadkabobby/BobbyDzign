@@ -1,64 +1,52 @@
 import React from "react";
 import "./Footer.css";
-import { instagramLogo, twitterLogo, facebookLogo } from "../../assets";
+import { instagramLogo, twitterLogo, facebookLogo } from "../../assets/index";
 
 const Footer = () => {
   return (
-    <footer className="black">
+    <footer className="black" id="footer">
       <div className="wrapper">
         <div className="content-container">
           <div className="links">
             <a href="#" className="logo">
-              Sound<span className="red">DZign</span>
+              Bobby <span className="red">DZign</span>
             </a>
-
             <div className="social-icons">
               <a href="#">
-                <img src={facebookLogo} alt="" />
+                <img src={facebookLogo} alt="facebook" />
               </a>
-
               <a href="#">
-                <img src={twitterLogo} alt="" />
+                <img src={twitterLogo} alt="facebook" />
               </a>
-
               <a href="#">
-                <img src={instagramLogo} alt="" />
+                <img src={instagramLogo} alt="facebook" />
               </a>
             </div>
-
             <div className="copyright">
-              This website is designed by GTCoding Ⓒ 2023
+              The website is developed by Bobby Khadka &#169; 2023
             </div>
           </div>
-
           <div className="links">
             <h3>Quick Links</h3>
             <ul>
               <li>
                 <a href="#">Blog</a>
               </li>
-
               <li>
                 <a href="#">Privacy Policy</a>
               </li>
             </ul>
           </div>
-
           <div className="links">
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <a href="#">contact@email.com</a>
+                <a href="#">khadkabobby916@gmail.com</a>
               </li>
-
               <li>
-                <a href="#">+1 999 9999 999</a>
+                <a href="#">+977 9869482916</a>
               </li>
             </ul>
-          </div>
-
-          <div className="copyright mobile">
-            This website is designed by GTCoding Ⓒ 2023
           </div>
         </div>
       </div>

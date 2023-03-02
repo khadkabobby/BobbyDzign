@@ -1,15 +1,13 @@
 header {
   min-height: 100vh;
-  background: url("../../assets/hero-image.jpg");
+  background: url(../../assets/hero-image.jpg);
   background-size: cover;
   background-position: center;
 }
-
 header .wrapper {
   position: relative;
   height: 100vh;
 }
-
 header .cta {
   position: absolute;
   bottom: 0;
@@ -23,20 +21,18 @@ header .cta {
   border-radius: 20px 20px 0px 0px;
   padding: 50px 40px;
 }
-
 header .cta .course-name {
   font-weight: 800;
   font-size: 16px;
   color: #fff;
   position: relative;
 }
-
 header .cta .course-name::after {
   content: "";
   position: absolute;
   width: 60px;
   height: 4px;
-  background: var(--red-color);
+  background-color: var(--red-color);
   left: 0;
   bottom: -10px;
 }
@@ -46,10 +42,8 @@ header .cta h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 140%;
-
   color: #ffffff;
 }
-
 header .cta .demo-btn {
   border-radius: 10px;
   background: var(--red-color);
@@ -57,26 +51,4 @@ header .cta .demo-btn {
   padding: 10px 32px;
   font-weight: 800;
   font-size: 16px;
-}
-
-/* Tablet version */
-
-@media (max-width: 1040px) {
-  header .cta {
-    width: 356px;
-  }
-}
-
-/* Smartphone version */
-
-@media (max-width: 720px) {
-  header .cta {
-    width: unset;
-    right: 32px;
-    left: 32px;
-  }
-
-  header .cta h1 {
-    font-size: 32px;
-  }
 }
