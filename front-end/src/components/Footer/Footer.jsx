@@ -47,6 +47,9 @@ const Footer = () => {
                 <a href="#">+977 9869482916</a>
               </li>
             </ul>
+            <div className="copyright mobile">
+              The website is developed by Bobby Khadka &#169; 2023
+            </div>
           </div>
         </div>
       </div>
